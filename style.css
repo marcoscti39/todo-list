@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(210, 36%, 96%);
+    width: 100%;
+
+}
+
+.title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-top: 4rem;
+    padding-bottom: 1.8rem;
+}
+
+input{
+    flex: 1;
+    border: none;
+    background-color: hsl(210, 36%, 96%);
+    height: 2rem;
+    border-radius: 7px 0px 0px 7px;
+    font-size: 1.2rem;
+    text-indent: 7px;
+
+}
+
+main{
+    width: 600px;
+    min-width: 425px;
+    background-color: white;
+    text-align: center;
+    border-radius: 0.4rem;
+    box-shadow: 0px 5px 8px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 0px 1.3rem;
+    position: relative;
+}
+
+.flex-wrap{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.btn-submit{
+    background: hsl(205, 86%, 81%);
+    cursor: pointer;
+    flex-basis: 5rem;
+    border: none;
+    border-radius: 0px 7px 7px 0px;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    transition: all 500ms;
+
+
+}
+.btn-submit:hover{
+    background: hsl(205, 86%, 67%);
+}
+
+article{
+    display: flex;
+    width: 100%;
+    text-indent: 7px;
+    min-height: 2rem;
+
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+article:hover{
+    background-color: hsl(210, 36%, 96%);
+}
+
+.items-edit{
+    display: flex;
+    gap: 0.4rem;
+    margin-right: 8px;
+
+
+}
+
+.items-edit div{
+    width: 1.4rem;
+    border-radius: 50%;
+    height: 1.4rem;
+    cursor: pointer;
+}
+
+.rename-item{
+    background-color: rgb(64, 219, 64);
+}
+
+.remove-item{
+    background-color: red;
+}
+
+.btn-clear{
+    background-color: transparent;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    color: rgb(201, 15, 15);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    
+}
+
+.btn-clear:hover{
+    color: rgb(253, 34, 34);
+}
+
+.modification-warning{
+    display: none;
+    width: 30px;
+    height: 1rem;
+    top: 28px;
+    color: white;
+    font-weight: 600;
+    width: 93%;
+    transition: all 500ms;
+    position: absolute;
+    cursor: pointer;
+}
+
